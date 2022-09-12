@@ -8,7 +8,7 @@ body {
     border-color:royalblue;
     border-width: 2px;
     padding-left: 5px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:"Courier New", Courier, monospace;
     text-align: center;
 }
 
@@ -21,11 +21,27 @@ body {
 }
 
 .inctroduction {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 10px;
 }
 
 #introdcution-subtitles {
     text-align:left;
     padding-left: 30px;
+}
+
+.top5-favorites {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.top5-spot {
+    background-color: aliceblue;
+    border: solid;
+    border-width: 2px;
+    border-color: #8A2BE2;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+
 }

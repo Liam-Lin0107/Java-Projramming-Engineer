@@ -1,0 +1,8 @@
+body {
+    background-color: blanchedalmond;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+canvas {
+    border: 1px solid gray;
+    width: 1000px;
+}

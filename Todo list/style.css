@@ -18,15 +18,18 @@ li {
 .done {
   background-color:greenyellow;
   border-color: white;
+  padding: 10px;
 }
 .remove {
   background-color: red;
   border-color: white;
-
+  padding: 10px;
 }
+
 .important {
   background-color:lightblue;
   border-color: white;
+  padding: 10px;
 }
 
 /* mark task as finished */

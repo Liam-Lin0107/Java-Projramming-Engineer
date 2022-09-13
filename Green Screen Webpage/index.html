@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <script src="action.js"></script>
+    <title>Combine Two Image</title>
+</head>
+<body>
+    <h1>Green Screen Web Page</h1>
+    <canvas id="can1"></canvas>
+    <canvas id="can2"></canvas>
+    <p>
+        <b>Foreground: </b><input type="file" id="fgImg" accept="image/*" onchange="loadForegroundImage()">
+    </p>
+    <p>
+        <b>Background: </b><input type="file" id="bgImg" accept="image/*" onchange="loadBackgroundImage()">
+    </p>
+    <p>
+        <input type="button" value="Create Composite" onclick="greenScreen()"> 
+        <input type="button" value="Clear Canvas" onclick="clearCanvas()">
+    </p>
+</body>
+</html>

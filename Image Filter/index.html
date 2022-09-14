@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="action.js"></script>
-    <script src=""></script>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
     <title>Image Filter</title>
 </head>
 
@@ -15,11 +15,12 @@
     <canvas id="can1"></canvas>
     <h2>Load Image</h2>
     <p>
-        <input type="file" id="inputImg" accept="image/*" multiple="false" onchange="loadImage()">
+        <input type="file" id="inputImg" accept="image/*" onchange="loadImage()">
+        
     </p>
     <h2>Choose Filter</h2>
     <p>
-        <input type="button" value="Grayscale" onclick="">
+        <input type="button" value="Grayscale" onclick="doGray()">
         <input type="button" value="Red" onclick="">
     </p>
     <p class="resetButton">

@@ -1,0 +1,12 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    border: 1px solid gray;
+}
+
+.colorFilter {
+    padding: 100px 100px 100px 100px;
+}
